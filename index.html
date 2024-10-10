@@ -21,7 +21,7 @@
       <div class="container flex items-center justify-between">
         <!-- Logo -->
         <a href="#">
-          <img src="/images/logo.svg" class="w-32" alt="" />
+          <img src="/images/banner-logo.png" class="w-32" alt="" />
         </a>
         <!-- Searchbars -->
         <div class="w-full max-w-xl relative">
@@ -204,10 +204,14 @@
         <!-- Navbar Links Start -->
         <div class="flex items-center justify-between flex-grow pl-12">
           <div class="flex items-center space-x-6 capitalize">
-            <a href="#" class="text-gray-200 hover:text-white transition"
+            <a
+              href="index.html"
+              class="text-gray-200 hover:text-white transition"
               >Home</a
             >
-            <a href="#" class="text-gray-200 hover:text-white transition"
+            <a
+              href="shop.html"
+              class="text-gray-200 hover:text-white transition"
               >Shop</a
             >
             <a href="#" class="text-gray-200 hover:text-white transition"
@@ -378,7 +382,9 @@
       </h2>
 
       <!-- Product Grid Start -->
-      <div class="grid grid-cols-5 gap-6">
+      <div
+        class="grid sm:grid-cols-5 md:grid-cols-4 lg:grid-cols-5 gap-6 grid-cols-2"
+      >
         <!-- Single Product Start -->
         <div class="bg-white shadow rounded overflow-hidden">
           <!-- Product Image Start -->
@@ -683,5 +689,97 @@
       <!-- Product Grid End -->
     </div>
     <!-- Product Wrapper End -->
+
+    <!-- Add Banner Start -->
+    <div class="container">
+      <img class="mb-10" src="images/add_img/offer-3.jpg" alt="" />
+    </div>
+    <!-- Add Banner End -->
+
+    <!-- Footer Start -->
+    <footer class="border-t-2 pt-7">
+      <div class="container">
+        <div class="flex justify-between mb-10">
+          <!-- Footer Cart 1 -->
+          <div class="w-1/4 gap-3 flex flex-col">
+            <a href="#">
+              <img src="/images/banner-logo.png" class="w-32" alt="" />
+            </a>
+            <p class="text-justify">
+              Lorem ipsum, or lipsum as it is sometimes kno wn, is dummy text
+              used in laying out print, gra phic or web designs the passage.
+            </p>
+            <h2 class="text-2xl font-bold">Newsletter</h2>
+            <div class="flex w-1/4">
+              <input
+                class="border p-2 border-primary outline-0"
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Email address"
+              />
+              <button class="capitalize text-xl bg-primary p-2">
+                subscribe
+              </button>
+            </div>
+          </div>
+          <!-- Footer Cart 1 End -->
+
+          <!-- Footer Cart 2 -->
+          <div class="list-none">
+            <h2 class="text-2xl font-bold mb-3">My Account</h2>
+            <li class="mt-2">Orders</li>
+            <li class="mt-2">Wishlist</li>
+            <li class="mt-2">Track Order</li>
+            <li class="mt-2">Managing Acccount</li>
+            <li class="mt-2">Return Order</li>
+          </div>
+          <!-- Footer Cart 2 End -->
+
+          <!-- Footer Cart 3 -->
+          <div class="list-none">
+            <h2 class="text-2xl font-bold mb-3">Information</h2>
+            <li class="mt-2">About Us</li>
+            <li class="mt-2">Return Policy</li>
+            <li class="mt-2">Term and Condition</li>
+            <li class="mt-2">Privacy Policy</li>
+            <li class="mt-2">FAQ</li>
+          </div>
+          <!-- Footer Cart 3 End -->
+
+          <!-- Footer Cart 4 -->
+          <div class="w-1/4 list-none">
+            <h2 class="text-2xl font-bold mb-3">Contact</h2>
+            <li class="mt-2">
+              <i class="fa-solid fa-location-dot"></i> 7895 Dr New Albuquerue,
+              NM 19800, United States Of America
+            </li>
+            <li class="mt-2">
+              <i class="fa-solid fa-phone"></i> +566 477 256, +566 254 575
+            </li>
+            <li class="mt-2">
+              <i class="fa-solid fa-envelope"></i> info@domain.com
+            </li>
+
+            <!-- Social Icon Start -->
+            <div class="text-3xl mt-3 flex gap-2">
+              <i class="fa-brands fa-facebook" style="color: #74c0fc"></i>
+              <i class="fa-brands fa-youtube" style="color: #d91608"></i>
+              <i class="fa-brands fa-instagram" style="color: #ed8712"></i>
+            </div>
+            <!-- Social Icon End -->
+          </div>
+          <!-- Footer Cart 4 End -->
+        </div>
+      </div>
+
+      <div class="bg-black py-2">
+        <div class="container flex justify-between items-center mb-1 mt-1">
+          <h1 class="text-white">© RAFCART - All Rights Reserved</h1>
+          <img class="w-2/6 h-auto" src="/images/methods.png" alt="">
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
   </body>
 </html>
